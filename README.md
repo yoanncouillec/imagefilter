@@ -1,6 +1,6 @@
 # ImageFilter
 
-ImageFilter is a C library that apply transformation to images like negative, rotate, blur, etc.
+ImageFilter is a C library that applies transformation to images like negative, rotate, blur, etc.
 
 * **Easy:** Say what transformation you want on what image and apply!
 * **Flexible:** You can mix transformations.
@@ -23,4 +23,4 @@ Include the library in your C code:
 
 ## License
 
-Lang.js is made under the terms of the MIT license.
+ImageFilter is made under the terms of the MIT license.
