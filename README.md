@@ -28,7 +28,7 @@ The negative image is:
 
 ## Installation
 
-Include the library in your C code:
+Include the library in your C code.
 
 ## License
 
