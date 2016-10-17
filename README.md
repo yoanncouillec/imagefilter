@@ -9,13 +9,17 @@ ImageFilter is a C library that applies transformation to images like negative, 
 ## Examples
 
 ```c
-  source = charger_image_pgm(source_name);
+  source = charger_image_pgm("vache_positive.png");
   destination = negatif(source);
-  destination = rotation_droite (destination, angle);
-  sauver_image_pgm(destination_name, destination);
+  sauver_image_pgm("vache_negative.png", destination);
+  destination = rotation_droite(source, 90);
+  sauver_image_pgm("vache_rotate.png", destination);
 ```
 
 This example applies successively a negative transformation and a rotation.
+
+The original image is:
+![alt tag](https://github.com/afissegalaad/ImageFilter/blob/master/images/vache_positive.png)
 
 ## Installation
 
